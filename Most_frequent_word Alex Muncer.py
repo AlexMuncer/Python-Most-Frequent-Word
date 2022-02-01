@@ -1,9 +1,10 @@
 # Author : Alex Muncer
 # Date : 02/12/2021
-# University of Hertfordshire SRN: 14152188
+# 
 # 
 # This program takes a list containing values (words) and outputs the most occoring value.
-# If multiple values (words) occor the same amount of times, it will output the the value (word) with the latest first occorence in the list.
+# If multiple values (words) occor the same amount of times, it will output the the value (word) with the latest first occorence in the list. 
+# This has a quadratic aka O(n^2) Time complexity.
 #
 # Parameter "n" of the function "most_frequent_word" is the list of values (words) to be checked. Note there is no type checking and assumes input is a list of strings.
 # Prints either error of empty array or the most frequent value (word).
